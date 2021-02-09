@@ -1,0 +1,29 @@
+{
+	"start": {
+		"prefix": "start",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"\t$0",
+			"\treturn 0;",
+			"}",
+		],
+		"description": "初始化",
+	},
+	"start-with-redirect": {
+		"prefix": "redirect",
+		"body": [
+			"#include <iostream>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"\tfreopen(\"in.txt\", \"r\", stdin);",
+			"\t$0",
+			"\treturn 0;",
+			"}",
+		],
+		"description": "初始化 + 输入重定向",
+	},
+}
