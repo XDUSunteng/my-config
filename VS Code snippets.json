@@ -30,4 +30,18 @@
 		],
 		"description": "初始化 + 输入重定向",
 	},
+	"for": {
+		"prefix": "f",
+		"body": [
+			"for (int i = 1; i <= n; ++ i)",
+		],
+		"description": "1-index正向",
+	},
+	"for-reverse": {
+		"prefix": "fr",
+		"body": [
+			"for (int i = n; i >= 1; -- i)",
+		],
+		"description": "1-index逆向",
+	},
 }
